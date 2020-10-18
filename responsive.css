@@ -1,0 +1,162 @@
+@media (max-width: 1024px) {
+
+    header {
+        background: black;
+    }
+    
+    main .section1 .container .row {
+        margin-left: 50px;
+    }
+
+    .section1 .container .row .col-md-6 .fotoku {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .section1 .container .row-satu .col-md-6 .panel h1 {
+        font-size: 2.5vw;
+        padding-left: 15px;
+    }
+
+    .section1 .container .row-satu .col-md-6 .panel p {
+        font-size: 1.3vw;
+        padding-left: 15px;
+    }
+
+    .section5 .container-fluid .row .tengah .logo-wrapper {
+        font-size: 4vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        max-width: 50%;
+        justify-content: center;
+    }   
+}
+
+@media (max-width: 768px) {
+
+    header {
+        background:black;
+    }
+
+    .container-navbar nav .navbar {
+        margin-right: 0;
+        
+    }
+
+    .navbar-collapse {
+        height: 100px;
+    }
+
+    .nav-item {
+        padding: 10px 10px;
+        padding-right: 80px;
+        margin: 0;
+        float: right;
+        left: 1px;
+        background-color: black;
+        border: 1px solid white;
+    }
+
+    .navbar-nav {
+        font-size: 16px;
+        position: fixed;
+        right: 0px;
+        top: 24px;
+    }
+
+    header .navbar-nav:last-child {
+        padding-right: 1px;
+    }
+
+    .section1 .container .row .col-md-6 .fotoku {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .section1 .container .row .col-md-6 .panel {
+        font-size: 4vw;
+        margin: 10 auto;
+        width: 3px;
+        left: 0%;
+        top: -80px;
+        height: 300px;
+        padding: 40px 20px;
+    }
+
+    main .section1 .container .row {
+        margin-left: 50px;
+    }
+
+    .section1 .container .row .col-md-6 .panel h1 {
+        position: absolute;
+        top: 15px;
+        font-size: 2.5vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section1 .container .row .col-md-6 .panel p {
+        position: absolute;
+        top: 25px;
+        font-size: 1.5vw;
+        padding: 10px 5px;
+    }
+
+    .section2 .container .row-satu .card {
+        width: 300px;
+        margin: 10px auto;
+    }
+
+    .section5 .container-fluid .row .kiri {
+        margin: 10px auto 10px;
+        width:90%
+    }
+
+    .section5 .container-fluid .row .kiri .title {
+        text-align: center;
+    }
+
+    .section5 .container-fluid .row .kiri h2, .section5 .container-fluid .row .kiri p, .section5 .container-fluid .row .kiri h6 {
+        margin:15px auto;
+    }
+
+    .section5 .container-fluid .row .tengah .title {
+        margin-bottom: 20px;
+    }
+
+    .section5 .container-fluid .row .tengah .logo-wrapper {
+        font-size: 5vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        max-width: 50%;
+        justify-content: space-evenly;
+    }
+
+    .section5 .container-fluid .row .kanan .contact-form input {
+        width: 93%;
+        margin-left: 12px;
+    }
+
+    .section5 .container-fluid .row .kanan .contact-form textarea {
+        margin-left: 12px;
+        width: 93%;
+        height: 8em;
+    }
+
+    .section5 .container-fluid .row .kanan .contact-form .btn {
+        margin-right:12px;
+    }
+}
+
+
+/* SECTION-2 CAROUSEL */
+
+/* @media (min-width: 768px) {
