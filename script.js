@@ -17,12 +17,10 @@ $(document).ready(function(){
     });
 });
 
-// $(window).resize(function() {
-//   if ($(window).width() < 850) {
-//     if($('.navbar-toggler').hasClass('change')){
-//       $(this).removeClass('change');
-//   }
-// });
+
+// $(document).ready(function(){
+  
+// });  
 
 // Kedua
 
@@ -33,28 +31,27 @@ $(document).ready(function(){
 
 // });
 
-$(document).click(function (e) {
 
-  let container = $(".navbar-nav");
-if (!container.is(e.target) // if the target of the click isn't the container...
-      && container.has(e.target).length === 0 // ... nor a descendant of the container
-      && event.target.class !== "collapse")  // for the functionality of main toggle button
-  {
-    $('.navbar-toggler').classList.toggle('change') 
-    // && $(".navbar-collapse.show").collapse("hide");
-  } 
-  // if (container.hasClass('change')){
-  //   $(this).removeClass('change');
-  // };
 
-});
+// Click to Close Sidebar
+// $(document).click(function (e) {
+
+//   let container = $(".navbar-nav");
+// if (!container.is(e.target) // if the target of the click isn't the container...
+//       && container.has(e.target).length === 0 // ... nor a descendant of the container
+//       && e.target.class !== "change")  // for the functionality of main toggle button
+//   {
+//     $(".navbar-collapse.show").collapse("hide");
+//   } 
+
+// });
+
 
 
 
 
 // Navbar Active
 
-// Add active class to the current button (highlight it)
 var header = document.getElementById("navCollapse");
 var btns = header.getElementsByClassName("nav-link");
 for (var i = 0; i < btns.length; i++) {
@@ -98,3 +95,23 @@ for (var i = 0; i < btns.length; i++) {
 //           $(this).text(Math.ceil(now));
 //       }
 //   });
+
+
+//Scrolling ID
+
+
+const navheight = $('nav').outerHeight();
+
+$('.nav-link').click(function (e) {
+
+  const linkhref = $(this).attr('href');
+
+  $('html, body').animate({
+
+    scrollTop: $(linkhref).offset().top - navheight
+
+  }, 500);
+
+  e.preventDefault();
+
+})
