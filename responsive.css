@@ -23,6 +23,7 @@
         padding-bottom: 0;
     }
 
+
     .section1 .container .row-satu .col-md-6 .panel h1 {
         font-size: 2.5vw;
         padding-left: 15px;
@@ -108,6 +109,7 @@
         left: 0%;
         top: -80px;
         padding: 40px 20px;
+        height: 16vh;
     }
 
     main .section1 .container .row {
@@ -117,7 +119,7 @@
     .section1 .container .row .col-md-6 .panel h1 {
         position: absolute;
         top: 15px;
-        font-size: 2.5vw;
+        font-size: 4vw;
         padding: 0;
         margin: 0;
     }
@@ -125,7 +127,8 @@
     .section1 .container .row .col-md-6 .panel p {
         position: absolute;
         top: 25px;
-        font-size: 1.5vw;
+        margin-top: 8px;
+        font-size: 2.3vw;
         padding: 10px 5px;
     }
 
