@@ -7,6 +7,13 @@
     main .section1 .container .row {
         margin-left: 50px;
     }
+    .container-navbar nav .nav-item {
+        padding: 5px 5px;
+    }
+
+    .container-navbar nav .change .nav-item {
+        padding: 50px 20px;
+    }
 
     .section1 .container .row .col-md-6 .fotoku {
         margin-top: 0;
@@ -52,13 +59,17 @@
     }
 
     .nav-item {
-        padding: 10px 10px;
-        padding-right: 80px;
+        
         margin: 0;
-        float: right;
-        left: 1px;
+        position: relative;
+        right: -4px;
+        top: 2px;
         background-color: black;
-        border: 1px solid white;
+        width: 30vw;
+    }
+
+    .nav-link {
+        width: 15vw;
     }
 
     .navbar-nav {
@@ -85,7 +96,6 @@
         width: 3px;
         left: 0%;
         top: -80px;
-        height: 300px;
         padding: 40px 20px;
     }
 
@@ -111,6 +121,24 @@
     .section2 .container .row-satu .card {
         width: 300px;
         margin: 10px auto;
+    }
+
+    .section4 .total .step{
+        padding: 0;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .section4 .total .title {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        
+    }
+
+    .section5 .container-fluid .row .kanan .title {
+        margin-top: 80px;
+        margin-bottom: 10px;
     }
 
     .section5 .container-fluid .row .kiri {
