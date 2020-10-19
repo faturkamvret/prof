@@ -1,3 +1,5 @@
+@import url['https://fonts.googleapis.com/css2?family=Rubik&display=swap'];
+
 @keyframes atas {
     0% {bottom: 0; left: 0;}
     100% {bottom: 5px; left: 0;}
