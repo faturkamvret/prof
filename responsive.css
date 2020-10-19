@@ -2,6 +2,7 @@
 
     header {
         background: black;
+        height: fit-content;
     }
     
     main .section1 .container .row {
@@ -47,6 +48,16 @@
 
     header {
         background:black;
+        height: fit-content;
+    }
+
+    header .container h1 {
+        font-size: 40px;
+        height: 30vh
+    }
+
+    header .container p {
+        font-size: 10px;
     }
 
     .container-navbar nav .navbar {
